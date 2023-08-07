@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Screening Task</title>
+    <link href="https://fonts.cdnfonts.com/css/metropolis" rel="stylesheet" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <!-- Heading Elements -->
+
+      <div class="heading">
+        <h2>Bundle & Save</h2>
+      </div>
+
+      <!-- Box 1 Container -->
+      <label for="selectItem1">
+      <div class="item1 box">
+        <input
+          type="radio"
+          id="selectItem1"
+          name="product"
+          value="item1"
+          checked
+        />
+        <label for="selectItem">
+          <span>1 Pair</span><br />
+          <strong class="dkItem">DKK 195.00 </strong>
+        </label>
+        <span class="discount text">50% OFF</span>
+      </div>
+    </label>
+
+      <!-- Box 2 Container Elements -->
+
+      <label for="selectItem2">
+        <div class="item2 box">
+          <div class="item2_part1">
+            <input type="radio" name="product" id="selectItem2" value="item2" />
+            <label for="selectItem2" class="item2_label">
+              <span>2 Pair</span><br />
+              <strong class="dkItem">DKK 345.00</strong>
+            </label>
+
+            <span class="remove_text">DKK 195.00</span>
+            <br />
+            <span class="size">Size</span>
+            <span class="colour">Colour</span>
+            <br />
+            <span class="number_item">#1</span>
+            <select id="size">
+              <option value="s">S</option>
+              <option value="m">M</option>
+              <option value="l">L</option>
+              <option value="xl">Xl</option>
+            </select>
+
+            <select id="colour">
+              <option value="red">Colour</option>
+              <option value="blue">blue</option>
+              <option value="green">green</option>
+              <option value="purple">purple</option></select
+            ><br />
+
+            <span class="number_item">#2</span>
+            <select id="size">
+              <option value="s">S</option>
+              <option value="m">M</option>
+              <option value="l">L</option>
+              <option value="xl">Xl</option>
+            </select>
+
+            <select id="colour">
+              <option value="red">Colour</option>
+              <option value="blue">blue</option>
+              <option value="green">green</option>
+              <option value="purple">purple</option>
+            </select>
+          </div>
+          <div class="item2_discount">
+            <p>
+              <span class="most">Most Popular</span><br />
+              <span class="discount">40% OFF</span>
+            </p>
+          </div>
+        </div>
+      </label>
+
+      <!-- Box 3 Container Elements -->
+      <label for="selectItem3">
+      <div class="item3 box">
+        <input type="radio" name="product" id="selectItem3" value="item3" />
+        <label for="selectItem3">
+          <span>3 Pair</span><br />
+          <span><strong class="dkItem"> DKK 528.00</strong> </span>
+        </label>
+      </label>
+
+        <!-- Footer elements of container -->
+
+        <span class="discount text">60% OFF</span>
+      </div>
+      <div class="last_item">
+        <span class="shipping_text">Free 2 Days Shipping</span>
+        <span class="dkItem">Total: DKK 360.00</span>
+      </div>
+      <button type="submit">+ Add to Cart</button>
+      <p class="copyright">&copy; Powered by Pumper</p>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
